@@ -14,3 +14,8 @@ wheels/
 .DS_Store
 
 .coverage
+
+**/**/*.log
+
+app.jsonl
+app_toml.jsonl

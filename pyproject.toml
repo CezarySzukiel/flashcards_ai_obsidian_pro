@@ -11,11 +11,13 @@ dev = [
     "mypy==1.15.0",
     "pytest==8.3.4",
     "pytest-cov>=6.0.0",
+    "puytest-env>=1.1.5",
     "ruff==0.9.5",
 ]
 
 [tool.pytest.ini_options]
 minversion = "6.0"
+env_files = ".env/.env-pytest" #  todo zainstalować pytest-dotenv --dev
 testpaths = [
     "tests",
     "conftest",
@@ -52,3 +54,5 @@ no_implicit_optional = true  # Nie pozwala na None, jeśli nie jest jawnie podan
 [[tool.mypy.overrides]]
 module = "tests.*"
 disallow_untyped_defs = false
+
+#todo zainstalowac pytest-env
