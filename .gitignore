@@ -15,7 +15,4 @@ wheels/
 
 .coverage
 
-**/**/*.log
 
-app.jsonl
-app_toml.jsonl

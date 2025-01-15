@@ -7,11 +7,11 @@ logger = logging.getLogger(__name__)
 
 def main() -> None:
     setup_logging()
-    logger.debug("debug message")
-    logger.info("info message")
-    logger.warning("warning message")
-    logger.error("error message")
-    logger.critical("critical message")
+    # logger.debug("debug message")
+    # logger.info("info message")
+    # logger.warning("warning message")
+    # logger.error("error message")
+    # logger.critical("critical message")
 
     try:
         1 / 0
