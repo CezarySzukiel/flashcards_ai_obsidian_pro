@@ -9,3 +9,8 @@ wheels/
 # Virtual environments
 .venv
 .idea
+.vscode
+
+.DS_Store
+
+.coverage
